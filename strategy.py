@@ -1,28 +1,44 @@
 import json
 import time
 
+import pandas as pd
+
 from config import (
-    LOOKBACK_TICKS,
     VROC_THRESHOLD,
-    STOP_LOSS_PCT,
-    TARGET_PCT,
     LOOP_DELAY,
-    BREAKOUT_BUFFER
+    HMA_FAST_LEN,
+    HMA_SLOW_LEN
 )
 
 from portfolio import Portfolio
 
 from utils import initialize_trade_log
 
+from backtesting.indicators import (
+    calculate_hma,
+    calculate_hma_slope
+)
+
+
+# =========================
+# PORTFOLIO
+# =========================
 
 portfolio = Portfolio()
 
+
+# =========================
+# LOAD MARKET DATA
+# =========================
 
 def load_market_data():
 
     try:
 
-        with open("market_data.json", "r") as f:
+        with open(
+            "market_data.json",
+            "r"
+        ) as f:
 
             return json.load(f)
 
@@ -31,39 +47,168 @@ def load_market_data():
         return []
 
 
+# =========================
+# VROC
+# =========================
+
 def calculate_vroc(volumes):
+
+    if len(volumes) < 2:
+
+        return 0
 
     highest = max(volumes)
 
     lowest = min(volumes)
 
+    if lowest == 0:
+
+        return 0
+
     return round(
-        ((highest - lowest) / lowest) * 100,
+
+        (
+            (highest - lowest)
+            /
+            lowest
+        ) * 100,
+
         2
     )
 
 
-def get_price_range(prices):
+# =========================
+# HMA SIGNAL ENGINE
+# =========================
 
-    return max(prices), min(prices)
+def get_hma_signal(
+    prices
+):
+
+    if len(prices) < HMA_SLOW_LEN + 5:
+
+        return None
+
+    close_series = pd.Series(prices)
+
+    hma_fast = calculate_hma(
+
+        close_series,
+
+        HMA_FAST_LEN
+
+    )
+
+    hma_slow = calculate_hma(
+
+        close_series,
+
+        HMA_SLOW_LEN
+
+    )
+
+    slope = calculate_hma_slope(
+        hma_fast
+    )
+
+    fast_value = hma_fast.iloc[-1]
+
+    slow_value = hma_slow.iloc[-1]
+
+    slope_value = slope.iloc[-1]
+
+    if pd.isna(fast_value):
+        return None
+
+    if pd.isna(slow_value):
+        return None
+
+    if pd.isna(slope_value):
+        return None
+
+    signal = None
+
+    if (
+
+        fast_value > slow_value
+
+        and
+
+        slope_value > 0
+
+    ):
+
+        signal = "LONG"
+
+    elif (
+
+        fast_value < slow_value
+
+        and
+
+        slope_value < 0
+
+    ):
+
+        signal = "SHORT"
+
+    return {
+
+        "signal": signal,
+
+        "hma_fast": round(
+            fast_value,
+            2
+        ),
+
+        "hma_slow": round(
+            slow_value,
+            2
+        ),
+
+        "slope": round(
+            slope_value,
+            4
+        )
+    }
 
 
-def check_entry(current_price, high, low):
+# =========================
+# EXIT ENGINE
+# =========================
 
-    breakout_above = high * (1 + BREAKOUT_BUFFER)
+def calculate_exit(
 
-    breakout_below = low * (1 - BREAKOUT_BUFFER)
+    position,
 
-    if current_price > breakout_above:
+    current_signal
 
-        return "LONG"
+):
 
-    elif current_price < breakout_below:
+    if current_signal is None:
 
-        return "SHORT"
+        return False
 
-    return None
+    signal = current_signal["signal"]
 
+    if position == "LONG":
+
+        if signal == "SHORT":
+
+            return True
+
+    elif position == "SHORT":
+
+        if signal == "LONG":
+
+            return True
+
+    return False
+
+
+# =========================
+# MAIN STRATEGY
+# =========================
 
 def run_strategy():
 
@@ -71,109 +216,140 @@ def run_strategy():
 
         market = load_market_data()
 
-        if len(market) < LOOKBACK_TICKS + 1:
+        if len(market) < 30:
 
-            print("Waiting for enough data...")
+            print(
+                "Waiting for enough data..."
+            )
 
-            time.sleep(LOOP_DELAY)
+            time.sleep(
+                LOOP_DELAY
+            )
 
             continue
 
-        recent_ticks = market[-(LOOKBACK_TICKS + 1):]
-
-        range_ticks = recent_ticks[:-1]
-
-        current_tick = recent_ticks[-1]
-
         prices = [
+
             x["price"]
-            for x in range_ticks
+
+            for x in market
+
         ]
 
         volumes = [
+
             x["volume"]
-            for x in range_ticks
+
+            for x in market
+
         ]
 
-        current_price = current_tick["price"]
+        current_price = prices[-1]
 
-        vroc = calculate_vroc(volumes)
+        vroc = calculate_vroc(
+            volumes
+        )
 
-        print("\n======================")
-        print(f"Price: {current_price}")
-        print(f"VROC: {vroc}%")
-        print("======================")
+        hma_data = get_hma_signal(
+            prices
+        )
 
-        if vroc < VROC_THRESHOLD:
+        if hma_data is None:
 
-            print("VROC below threshold")
-
-            time.sleep(LOOP_DELAY)
+            time.sleep(
+                LOOP_DELAY
+            )
 
             continue
 
-        high_range, low_range = get_price_range(prices)
+        signal = hma_data["signal"]
 
-        print(f"High Range: {high_range}")
-        print(f"Low Range: {low_range}")
-
-        signal = check_entry(
-            current_price,
-            high_range,
-            low_range
+        print(
+            "\n========================"
         )
 
-        if signal:
+        print(
+            f"Price     : {current_price}"
+        )
+
+        print(
+            f"HMA Fast  : {hma_data['hma_fast']}"
+        )
+
+        print(
+            f"HMA Slow  : {hma_data['hma_slow']}"
+        )
+
+        print(
+            f"Slope     : {hma_data['slope']}"
+        )
+
+        print(
+            f"VROC      : {vroc}%"
+        )
+
+        print(
+            f"Signal    : {signal}"
+        )
+
+        print(
+            "========================"
+        )
+
+        # =====================
+        # ENTRY
+        # =====================
+
+        if (
+
+            not portfolio.has_position()
+
+            and
+
+            signal is not None
+
+            and
+
+            vroc >= VROC_THRESHOLD
+
+        ):
 
             portfolio.enter_trade(
+
                 signal,
+
                 current_price
+
             )
 
-        if portfolio.has_position():
+        # =====================
+        # EXIT
+        # =====================
 
-            entry = portfolio.entry_price
+        elif portfolio.has_position():
 
-            side = portfolio.position
+            should_exit = calculate_exit(
 
-            if side == "LONG":
+                portfolio.position,
 
-                sl = entry * (1 - STOP_LOSS_PCT)
+                hma_data
 
-                target = entry * (1 + TARGET_PCT)
+            )
 
-                if current_price <= sl:
+            if should_exit:
 
-                    print("LONG STOP LOSS")
+                portfolio.exit_trade(
+                    current_price
+                )
 
-                    portfolio.exit_trade(current_price)
+        time.sleep(
+            LOOP_DELAY
+        )
 
-                elif current_price >= target:
 
-                    print("LONG TARGET HIT")
-
-                    portfolio.exit_trade(current_price)
-
-            elif side == "SHORT":
-
-                sl = entry * (1 + STOP_LOSS_PCT)
-
-                target = entry * (1 - TARGET_PCT)
-
-                if current_price >= sl:
-
-                    print("SHORT STOP LOSS")
-
-                    portfolio.exit_trade(current_price)
-
-                elif current_price <= target:
-
-                    print("SHORT TARGET HIT")
-
-                    portfolio.exit_trade(current_price)
-
-        time.sleep(LOOP_DELAY)
-
+# =========================
+# MAIN
+# =========================
 
 if __name__ == "__main__":
 

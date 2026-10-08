@@ -1,0 +1,2 @@
+datetime,position,size,entry_price,exit_price,stop_loss,target_price,pnl,vroc,adx,atr,regime,exit_reason
+2026-04-30 04:45:00+00:00,LONG,43,1386.5,1400.2,1417.89,1432.07,589.1,-40.66,55.17,12.21,TREND,STOP LOSS

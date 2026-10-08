@@ -1,0 +1,9 @@
+sweep_type,parameter,configurations,pfr_pct,pfi_supplementary,max_pnl,max_expectancy,max_trades,dead_zone_count,low_sample_count,stable_plateau_count
+1D,adx_1d,8,100.0,0.342,4682.64,649.89,17,2,6,0
+1D,vroc_1d,6,100.0,0.222,6826.84,853.35,8,6,0,0
+1D,atr_1d,4,100.0,0.807,4936.8,705.26,7,4,0,0
+1D,target_1d,6,100.0,0.565,4549.24,649.89,7,6,0,0
+1D,lookback_1d,6,100.0,0.0,4549.24,649.89,7,6,0,0
+1D,quality_score_1d,3,100.0,0.132,4549.24,707.59,12,2,1,0
+2D,adx_vroc_2d,48,100.0,,6826.84,853.35,17,12,36,0
+2D,atr_target_2d,24,100.0,,6073.19,867.6,8,24,0,0

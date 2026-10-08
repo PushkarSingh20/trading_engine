@@ -1163,5 +1163,470 @@
         "timestamp": "2026-05-16 23:15:07.901430",
         "category": "bad",
         "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:15:22.903651",
+        "category": "best",
+        "headline": "Major buyback announced"
+    },
+    {
+        "timestamp": "2026-05-16 23:15:32.907231",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:15:43.908711",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:15:54.911170",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:16:08.914997",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:16:24.916294",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:16:44.919571",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:17:02.923021",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:17:14.926385",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:17:34.929288",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:17:47.931983",
+        "category": "best",
+        "headline": "Major buyback announced"
+    },
+    {
+        "timestamp": "2026-05-16 23:18:01.936417",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:18:19.940235",
+        "category": "worst",
+        "headline": "Major regulatory issue"
+    },
+    {
+        "timestamp": "2026-05-16 23:18:39.943250",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:18:52.946933",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:19:02.949737",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:19:18.953780",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:19:34.956605",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:19:46.957779",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:20:04.960391",
+        "category": "worst",
+        "headline": "Major regulatory issue"
+    },
+    {
+        "timestamp": "2026-05-16 23:20:21.963499",
+        "category": "worst",
+        "headline": "Major regulatory issue"
+    },
+    {
+        "timestamp": "2026-05-16 23:20:35.966324",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:20:51.969442",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:21:09.972409",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:21:20.975142",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:21:30.976478",
+        "category": "bad",
+        "headline": "Weak quarterly guidance"
+    },
+    {
+        "timestamp": "2026-05-16 23:21:49.978554",
+        "category": "best",
+        "headline": "Major buyback announced"
+    },
+    {
+        "timestamp": "2026-05-16 23:22:03.979727",
+        "category": "best",
+        "headline": "Record quarterly profits"
+    },
+    {
+        "timestamp": "2026-05-16 23:22:16.980847",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:22:27.992300",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:22:47.995903",
+        "category": "bad",
+        "headline": "Weak quarterly guidance"
+    },
+    {
+        "timestamp": "2026-05-16 23:23:04.999691",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:23:23.000839",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:23:39.004104",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:23:57.006756",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:24:14.010867",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:24:30.012849",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:24:42.015626",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:25:00.019054",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:25:19.023124",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:25:36.027564",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:25:54.038921",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:26:12.042620",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:26:22.043847",
+        "category": "worst",
+        "headline": "Fraud allegations reported"
+    },
+    {
+        "timestamp": "2026-05-16 23:26:42.046214",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:26:54.049278",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:27:12.051253",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:27:32.055336",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:27:48.059566",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:27:59.063110",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:28:18.065957",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:28:31.070026",
+        "category": "worst",
+        "headline": "Fraud allegations reported"
+    },
+    {
+        "timestamp": "2026-05-16 23:28:50.073293",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:29:01.076787",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:29:12.079709",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:29:32.082304",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:29:44.086188",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:29:56.089300",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:30:07.093490",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:30:25.096036",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:30:38.099479",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:30:48.102109",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:31:08.106191",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:31:19.110575",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:31:33.113748",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:31:53.116254",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:32:13.118970",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:32:29.122497",
+        "category": "worst",
+        "headline": "Major regulatory issue"
+    },
+    {
+        "timestamp": "2026-05-16 23:32:45.126300",
+        "category": "bad",
+        "headline": "Weak quarterly guidance"
+    },
+    {
+        "timestamp": "2026-05-16 23:33:04.129566",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:33:20.134080",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:33:31.137534",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:33:46.141391",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:33:59.144173",
+        "category": "good",
+        "headline": "Strong demand observed"
+    },
+    {
+        "timestamp": "2026-05-16 23:34:10.147578",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:34:25.151954",
+        "category": "bad",
+        "headline": "Insider selling increases"
+    },
+    {
+        "timestamp": "2026-05-16 23:34:39.155323",
+        "category": "good",
+        "headline": "Revenue beats estimates"
+    },
+    {
+        "timestamp": "2026-05-16 23:34:55.156862",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:35:06.158429",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:35:22.162422",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:35:41.165537",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:35:56.168875",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:36:09.170704",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:36:20.172247",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:36:32.175894",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:36:46.177185",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:36:58.181324",
+        "category": "neutral",
+        "headline": "No major updates"
+    },
+    {
+        "timestamp": "2026-05-16 23:37:18.185343",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:37:30.188819",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:37:48.192321",
+        "category": "worst",
+        "headline": "Major regulatory issue"
+    },
+    {
+        "timestamp": "2026-05-16 23:37:58.196030",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:38:15.199295",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
+    },
+    {
+        "timestamp": "2026-05-16 23:38:26.200852",
+        "category": "neutral",
+        "headline": "Mixed market sentiment"
     }
 ]

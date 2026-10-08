@@ -24,6 +24,28 @@ POSITION_SIZE = 1
 COOLDOWN_SECONDS = 10
 
 # ==============================
+# HMA SETTINGS (STAGE 3)
+# ==============================
+
+HMA_FAST_LEN = 9
+
+HMA_SLOW_LEN = 21
+
+# ==============================================================================
+# ADX THRESHOLD SETTINGS (STAGE 12 AUDIT NOTE)
+# ------------------------------------------------------------------------------
+# Inconsistency documented for Stage 13 parameter robustness review:
+#   1. config.py:            ADX_THRESHOLD = 20 (base indicator threshold)
+#   2. regime_detector.py:   ADX_TREND_THRESHOLD = 25 (regime classifier threshold)
+#   3. backtest.py:          ADX_ENTRY_THRESHOLD = 50 (strict entry confirmation)
+#
+# Values are kept FROZEN for Stage 12 per architecture review instructions.
+# They will be systematically evaluated in Stage 13 (Parameter Robustness).
+# ==============================================================================
+ADX_THRESHOLD = 20
+ADX_ENTRY_THRESHOLD = 50
+
+# ==============================
 # LOOP SETTINGS
 # ==============================
 
@@ -74,3 +96,13 @@ CATEGORY_EFFECT = {
         "volume_multiplier": 3.0
     }
 }
+
+# ==============================
+# REGIME DETECTOR
+# ==============================
+
+ADX_TREND_THRESHOLD = 25
+
+ATR_VOL_MULTIPLIER = 1.20
+
+HMA_SLOPE_THRESHOLD = 0.10

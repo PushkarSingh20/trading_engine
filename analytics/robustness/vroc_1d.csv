@@ -1,0 +1,7 @@
+adx_entry,vroc_thresh,atr_mult,target_mult,lookback,quality_score,total_trades,wins,losses,win_rate,realized_pnl,profit_factor,expectancy,max_drawdown,sharpe_ratio,sample_flag,positive_windows,win_window_pct
+50.0,40.0,2.0,2.0,5,3,8,4,4,50.0,6826.84,3.17,853.35,-1928.6,0.4672,VERY_LOW_SAMPLE,2/4,50.0
+50.0,60.0,2.0,2.0,5,3,8,4,4,50.0,6826.84,3.17,853.35,-1928.6,0.4672,VERY_LOW_SAMPLE,2/4,50.0
+50.0,80.0,2.0,2.0,5,3,7,3,4,42.86,4549.24,2.45,649.89,-1928.6,0.3471,VERY_LOW_SAMPLE,2/4,50.0
+50.0,100.0,2.0,2.0,5,3,7,3,4,42.86,4549.24,2.45,649.89,-1928.6,0.3471,VERY_LOW_SAMPLE,2/4,50.0
+50.0,120.0,2.0,2.0,5,3,7,3,4,42.86,4549.24,2.45,649.89,-1928.6,0.3471,VERY_LOW_SAMPLE,2/4,50.0
+50.0,150.0,2.0,2.0,5,3,7,3,4,42.86,4549.24,2.45,649.89,-1928.6,0.3471,VERY_LOW_SAMPLE,2/4,50.0

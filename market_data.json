@@ -1,402 +1,402 @@
 [
     {
-        "price": 843.74,
-        "volume": 2365
+        "price": 986.03,
+        "volume": 890
     },
     {
-        "price": 869.62,
-        "volume": 2427
+        "price": 984.75,
+        "volume": 792
     },
     {
-        "price": 896.86,
-        "volume": 2368
+        "price": 986.09,
+        "volume": 723
     },
     {
-        "price": 925.65,
-        "volume": 2593
+        "price": 987.79,
+        "volume": 891
     },
     {
-        "price": 951.6,
-        "volume": 2412
+        "price": 989.73,
+        "volume": 700
     },
     {
-        "price": 981.73,
-        "volume": 2498
+        "price": 989.08,
+        "volume": 849
     },
     {
-        "price": 1009.29,
-        "volume": 2233
+        "price": 988.79,
+        "volume": 900
     },
     {
-        "price": 1009.42,
-        "volume": 980
+        "price": 987.71,
+        "volume": 923
     },
     {
-        "price": 1011.14,
-        "volume": 915
+        "price": 986.31,
+        "volume": 715
     },
     {
-        "price": 1011.55,
-        "volume": 694
+        "price": 986.27,
+        "volume": 782
     },
     {
-        "price": 1009.65,
-        "volume": 653
+        "price": 985.29,
+        "volume": 742
     },
     {
-        "price": 1010.66,
-        "volume": 910
+        "price": 986.87,
+        "volume": 982
     },
     {
-        "price": 1011.07,
-        "volume": 785
+        "price": 985.91,
+        "volume": 838
     },
     {
-        "price": 1033.05,
-        "volume": 1631
+        "price": 987.05,
+        "volume": 937
     },
     {
-        "price": 1053.78,
-        "volume": 1750
+        "price": 985.89,
+        "volume": 663
     },
     {
-        "price": 1074.32,
-        "volume": 1490
+        "price": 987.39,
+        "volume": 668
     },
     {
-        "price": 1097.65,
-        "volume": 1448
+        "price": 987.16,
+        "volume": 879
     },
     {
-        "price": 1065.68,
-        "volume": 2262
+        "price": 985.2,
+        "volume": 811
     },
     {
-        "price": 1034.6,
-        "volume": 2285
+        "price": 986.39,
+        "volume": 606
     },
     {
-        "price": 1003.67,
-        "volume": 2567
+        "price": 987.02,
+        "volume": 893
     },
     {
-        "price": 1023.59,
-        "volume": 1759
+        "price": 988.85,
+        "volume": 986
     },
     {
-        "price": 1044.43,
-        "volume": 1634
+        "price": 987.85,
+        "volume": 728
     },
     {
-        "price": 1065.32,
-        "volume": 1461
-    },
-    {
-        "price": 1086.12,
-        "volume": 1737
-    },
-    {
-        "price": 1109.45,
-        "volume": 1608
-    },
-    {
-        "price": 1129.99,
-        "volume": 1580
-    },
-    {
-        "price": 1131.8,
-        "volume": 850
-    },
-    {
-        "price": 1129.83,
-        "volume": 783
-    },
-    {
-        "price": 1131.15,
-        "volume": 930
-    },
-    {
-        "price": 1131.45,
-        "volume": 842
-    },
-    {
-        "price": 1167.33,
-        "volume": 2417
-    },
-    {
-        "price": 1201.1,
-        "volume": 2562
-    },
-    {
-        "price": 1236.04,
-        "volume": 2216
-    },
-    {
-        "price": 1273.35,
-        "volume": 2471
-    },
-    {
-        "price": 1311.01,
-        "volume": 2294
-    },
-    {
-        "price": 1349.99,
-        "volume": 2509
-    },
-    {
-        "price": 1377.79,
-        "volume": 1517
-    },
-    {
-        "price": 1407.28,
-        "volume": 1762
-    },
-    {
-        "price": 1436.12,
-        "volume": 1721
-    },
-    {
-        "price": 1463.61,
-        "volume": 1770
-    },
-    {
-        "price": 1493.57,
-        "volume": 1681
-    },
-    {
-        "price": 1523.65,
-        "volume": 1645
-    },
-    {
-        "price": 1525.53,
-        "volume": 959
-    },
-    {
-        "price": 1525.81,
-        "volume": 831
-    },
-    {
-        "price": 1523.94,
-        "volume": 809
-    },
-    {
-        "price": 1524.43,
-        "volume": 610
-    },
-    {
-        "price": 1524.98,
-        "volume": 951
-    },
-    {
-        "price": 1524.39,
-        "volume": 612
-    },
-    {
-        "price": 1522.6,
-        "volume": 808
-    },
-    {
-        "price": 1524.3,
-        "volume": 971
-    },
-    {
-        "price": 1523.49,
-        "volume": 680
-    },
-    {
-        "price": 1553.68,
-        "volume": 1716
-    },
-    {
-        "price": 1585.41,
-        "volume": 1553
-    },
-    {
-        "price": 1616.29,
-        "volume": 1480
-    },
-    {
-        "price": 1647.54,
-        "volume": 1560
-    },
-    {
-        "price": 1679.5,
-        "volume": 1465
-    },
-    {
-        "price": 1713.64,
-        "volume": 1543
-    },
-    {
-        "price": 1711.83,
-        "volume": 786
-    },
-    {
-        "price": 1710.26,
-        "volume": 603
-    },
-    {
-        "price": 1709.73,
-        "volume": 745
-    },
-    {
-        "price": 1710.74,
-        "volume": 897
-    },
-    {
-        "price": 1709.49,
-        "volume": 774
-    },
-    {
-        "price": 1709.79,
-        "volume": 622
-    },
-    {
-        "price": 1708.8,
-        "volume": 865
-    },
-    {
-        "price": 1709.46,
-        "volume": 696
-    },
-    {
-        "price": 1709.01,
-        "volume": 919
-    },
-    {
-        "price": 1710.48,
-        "volume": 835
-    },
-    {
-        "price": 1710.08,
-        "volume": 664
-    },
-    {
-        "price": 1711.31,
-        "volume": 665
-    },
-    {
-        "price": 1709.33,
-        "volume": 951
-    },
-    {
-        "price": 1710.12,
-        "volume": 994
-    },
-    {
-        "price": 1709.89,
-        "volume": 768
-    },
-    {
-        "price": 1708.11,
-        "volume": 810
-    },
-    {
-        "price": 1707.41,
-        "volume": 659
-    },
-    {
-        "price": 1705.75,
-        "volume": 734
-    },
-    {
-        "price": 1705.4,
-        "volume": 964
-    },
-    {
-        "price": 1706.22,
-        "volume": 855
-    },
-    {
-        "price": 1705.56,
-        "volume": 851
-    },
-    {
-        "price": 1670.04,
-        "volume": 1698
-    },
-    {
-        "price": 1636.67,
-        "volume": 1500
-    },
-    {
-        "price": 1602.92,
-        "volume": 1641
-    },
-    {
-        "price": 1572.53,
-        "volume": 1466
-    },
-    {
-        "price": 1541.89,
-        "volume": 1424
-    },
-    {
-        "price": 1540.53,
-        "volume": 676
-    },
-    {
-        "price": 1541.52,
-        "volume": 905
-    },
-    {
-        "price": 1542.2,
-        "volume": 815
-    },
-    {
-        "price": 1544.13,
-        "volume": 984
-    },
-    {
-        "price": 1543.48,
+        "price": 986.56,
         "volume": 853
     },
     {
-        "price": 1542.17,
-        "volume": 977
+        "price": 987.51,
+        "volume": 668
     },
     {
-        "price": 1541.2,
-        "volume": 724
+        "price": 985.94,
+        "volume": 833
     },
     {
-        "price": 1539.41,
-        "volume": 987
+        "price": 987.33,
+        "volume": 620
     },
     {
-        "price": 1539.77,
-        "volume": 730
+        "price": 986.33,
+        "volume": 622
     },
     {
-        "price": 1541.07,
+        "price": 986.53,
+        "volume": 680
+    },
+    {
+        "price": 986.34,
+        "volume": 967
+    },
+    {
+        "price": 987.22,
+        "volume": 781
+    },
+    {
+        "price": 987.46,
         "volume": 942
     },
     {
-        "price": 1540.94,
-        "volume": 815
+        "price": 988.59,
+        "volume": 793
     },
     {
-        "price": 1539.27,
-        "volume": 687
+        "price": 988.9,
+        "volume": 686
     },
     {
-        "price": 1540.65,
-        "volume": 989
+        "price": 988.66,
+        "volume": 613
     },
     {
-        "price": 1542.11,
-        "volume": 831
+        "price": 986.83,
+        "volume": 654
     },
     {
-        "price": 1541.87,
-        "volume": 872
+        "price": 987.66,
+        "volume": 764
     },
     {
-        "price": 1510.95,
-        "volume": 1796
+        "price": 989.48,
+        "volume": 645
     },
     {
-        "price": 1481.59,
-        "volume": 1486
+        "price": 990.26,
+        "volume": 792
+    },
+    {
+        "price": 990.52,
+        "volume": 958
+    },
+    {
+        "price": 990.56,
+        "volume": 880
+    },
+    {
+        "price": 989.65,
+        "volume": 665
+    },
+    {
+        "price": 990.13,
+        "volume": 944
+    },
+    {
+        "price": 990.16,
+        "volume": 852
+    },
+    {
+        "price": 988.97,
+        "volume": 838
+    },
+    {
+        "price": 990.23,
+        "volume": 723
+    },
+    {
+        "price": 988.83,
+        "volume": 678
+    },
+    {
+        "price": 987.12,
+        "volume": 928
+    },
+    {
+        "price": 985.82,
+        "volume": 706
+    },
+    {
+        "price": 984.83,
+        "volume": 724
+    },
+    {
+        "price": 984.54,
+        "volume": 769
+    },
+    {
+        "price": 985.78,
+        "volume": 684
+    },
+    {
+        "price": 986.38,
+        "volume": 915
+    },
+    {
+        "price": 984.44,
+        "volume": 717
+    },
+    {
+        "price": 984.04,
+        "volume": 976
+    },
+    {
+        "price": 982.66,
+        "volume": 929
+    },
+    {
+        "price": 981.09,
+        "volume": 974
+    },
+    {
+        "price": 982.84,
+        "volume": 940
+    },
+    {
+        "price": 984.17,
+        "volume": 939
+    },
+    {
+        "price": 986.1,
+        "volume": 849
+    },
+    {
+        "price": 985.92,
+        "volume": 1000
+    },
+    {
+        "price": 987.75,
+        "volume": 638
+    },
+    {
+        "price": 989.49,
+        "volume": 950
+    },
+    {
+        "price": 987.67,
+        "volume": 703
+    },
+    {
+        "price": 989.26,
+        "volume": 681
+    },
+    {
+        "price": 988.93,
+        "volume": 752
+    },
+    {
+        "price": 987.4,
+        "volume": 752
+    },
+    {
+        "price": 988.74,
+        "volume": 856
+    },
+    {
+        "price": 987.42,
+        "volume": 932
+    },
+    {
+        "price": 987.86,
+        "volume": 958
+    },
+    {
+        "price": 989.17,
+        "volume": 929
+    },
+    {
+        "price": 988.84,
+        "volume": 880
+    },
+    {
+        "price": 989.68,
+        "volume": 925
+    },
+    {
+        "price": 989.74,
+        "volume": 977
+    },
+    {
+        "price": 990.37,
+        "volume": 848
+    },
+    {
+        "price": 992.03,
+        "volume": 722
+    },
+    {
+        "price": 993.82,
+        "volume": 760
+    },
+    {
+        "price": 993.22,
+        "volume": 848
+    },
+    {
+        "price": 994.95,
+        "volume": 910
+    },
+    {
+        "price": 996.86,
+        "volume": 1000
+    },
+    {
+        "price": 998.77,
+        "volume": 667
+    },
+    {
+        "price": 997.73,
+        "volume": 895
+    },
+    {
+        "price": 998.75,
+        "volume": 783
+    },
+    {
+        "price": 999.19,
+        "volume": 828
+    },
+    {
+        "price": 997.46,
+        "volume": 950
+    },
+    {
+        "price": 997.04,
+        "volume": 784
+    },
+    {
+        "price": 997.8,
+        "volume": 925
+    },
+    {
+        "price": 999.66,
+        "volume": 604
+    },
+    {
+        "price": 1000.65,
+        "volume": 762
+    },
+    {
+        "price": 1001.07,
+        "volume": 885
+    },
+    {
+        "price": 1002.31,
+        "volume": 954
+    },
+    {
+        "price": 1003.21,
+        "volume": 755
+    },
+    {
+        "price": 1005.08,
+        "volume": 691
+    },
+    {
+        "price": 1004.82,
+        "volume": 801
+    },
+    {
+        "price": 1006.51,
+        "volume": 765
+    },
+    {
+        "price": 1006.55,
+        "volume": 644
+    },
+    {
+        "price": 1004.72,
+        "volume": 944
+    },
+    {
+        "price": 1005.7,
+        "volume": 910
+    },
+    {
+        "price": 1003.79,
+        "volume": 776
+    },
+    {
+        "price": 1002.38,
+        "volume": 678
+    },
+    {
+        "price": 1002.65,
+        "volume": 614
     }
 ]

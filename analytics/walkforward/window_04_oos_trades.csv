@@ -1,0 +1,2 @@
+datetime,position,size,entry_price,exit_price,stop_loss,target_price,pnl,vroc,adx,atr,regime,exit_reason
+2026-01-08 04:45:00+00:00,SHORT,50,1526.2,1485.5,1494.59,1486.49,2035.0,-20.37,68.74,9.09,TREND,TARGET

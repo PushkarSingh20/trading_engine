@@ -1,0 +1,4 @@
+capital,realized_pnl,total_trades,wins,losses,win_rate,profit_factor,avg_win,avg_loss,risk_reward,expectancy,max_drawdown,sharpe_ratio,Dataset
+105399.93,5399.93,5.0,3.0,2.0,60.0,5.06,2243.43,-665.18,3.37,1079.99,-1330.35,9.65,TRAIN
+104802.9,4802.9,5.0,3.0,2.0,60.0,3.65,2206.16,-907.8,2.43,960.58,-1380.0,7.81,VALIDATION
+102624.1,2624.1,2.0,2.0,0.0,100.0,0.0,1312.05,0.0,0.0,1312.05,0.0,20.37,TEST
